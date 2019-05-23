@@ -1,8 +1,10 @@
 scanner:
-    diff_only: True
-    linter: flake8
+  diff_only: True
+  linter: flake8
 
-# flake8:
+flake8:
+  select:
+    - E303
 #     max-line-length: 120  # Default is 79 in PEP 8
 #     ignore:  # Errors and warnings to ignore
 #         - E266
