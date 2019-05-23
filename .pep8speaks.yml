@@ -12,3 +12,7 @@ flake8:
 #         - E128
 #         - E701
 #         - W504
+
+pycodestyle:
+  select:
+    - E303
