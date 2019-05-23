@@ -10,7 +10,7 @@ p = partial(pprint.pprint, width=1)
 
 def main():
     print('Hello')
-    p({'foo': 'F', 'bar': 'B'})
+    p({'foo': 'F', 'bar':'B'})
 
 
 
